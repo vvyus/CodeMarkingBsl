@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalDataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8a859e67-ff1b-4c64-b53b-13b81c92d148">
+  <producedTypes>
+    <objectType typeId="7eb185a2-0f32-4b02-a26d-e8e04f0a3836" valueTypeId="d08d6e1b-daa8-4bfb-ad75-4ad4d3e2ba17"/>
+  </producedTypes>
+  <name>РазметкаКодаBsl</name>
+  <synonym>
+    <key>ru</key>
+    <value>Разметка кода bsl</value>
+  </synonym>
+  <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="b41e6f76-f576-42b2-bff4-58b9e67e774f"/>
+  <defaultForm>ExternalDataProcessor.РазметкаКодаBsl.Form.Форма</defaultForm>
+  <forms uuid="1c6a94d2-0283-4300-b403-a8d78f1f6340">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:ExternalDataProcessor>
