@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommandGroup xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="372ad3eb-4a89-4c5c-90ee-67384da4cb57">
+  <name>БР_БиблиотекаКода</name>
+  <synonym>
+    <key>ru</key>
+    <value>Библиотека кода</value>
+  </synonym>
+  <representation>Auto</representation>
+</mdclass:CommandGroup>

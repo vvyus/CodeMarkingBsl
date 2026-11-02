@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0478fb37-84ad-4261-bfc0-2883496bc017">
+  <name>Каталог</name>
+  <synonym>
+    <key>ru</key>
+    <value>Каталог</value>
+  </synonym>
+  <group>CommandGroup.БР_БиблиотекаКода</group>
+  <representation>Auto</representation>
+</mdclass:CommonCommand>

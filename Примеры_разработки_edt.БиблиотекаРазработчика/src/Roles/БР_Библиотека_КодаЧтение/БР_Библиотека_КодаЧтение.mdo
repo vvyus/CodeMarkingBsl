@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9f2ef112-07e4-4751-aa9f-b18abc0f4a46">
+  <name>БР_Библиотека_КодаЧтение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Библиотека кода (чтение)</value>
+  </synonym>
+</mdclass:Role>

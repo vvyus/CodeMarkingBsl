@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="b6275ca3-acf7-4ff9-b3cc-04b27cde07bf" extendedConfigurationObject="7dca913d-e37a-4740-8e3d-677d379605ee">
+  <producedTypes>
+    <objectType typeId="fe357550-20a5-4b7e-b735-41c2ca44cb68" valueTypeId="12f7db50-35d1-43ee-915e-42900e24eb23"/>
+    <managerType typeId="e9a91e7f-fa25-48a5-9189-487f0556db3f" valueTypeId="c1c607ff-eb80-4aa8-b708-be9f23e8b397"/>
+  </producedTypes>
+  <name>УдалениеПомеченныхОбъектов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DataProcessorExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <forms uuid="147ba682-65cc-43b8-908d-ad1009ee31af" extendedConfigurationObject="bd1cf7ef-f3e2-4441-836b-16f2cc227aa9">
+    <name>ОсновнаяФорма</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:DataProcessor>

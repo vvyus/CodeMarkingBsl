@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="503d18c5-05d1-4a2f-8411-fa1150086a12" extendedConfigurationObject="ae698468-f42a-4400-aee6-fd849740e634">
+  <producedTypes>
+    <containerType typeId="f04213bd-8d52-4e4f-af03-6f60c829e107" valueTypeId="95a159f8-096b-4df0-bf49-0c0074ed8a68"/>
+  </producedTypes>
+  <name>ВладелецФайлов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DefinedTypeExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>CatalogRef.ПапкиФайлов</type>
+      </types>
+      <types>
+        <state>Extended</state>
+        <type>CatalogRef.БР_СписокДокументов</type>
+      </types>
+    </typeExtension>
+  </extension>
+</mdclass:DefinedType>

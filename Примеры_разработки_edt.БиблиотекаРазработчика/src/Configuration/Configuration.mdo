@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="457dacf5-a8ee-4347-946c-3ae78e7d9d5f">
+  <name>БиблиотекаРазработчика</name>
+  <synonym>
+    <key>ru</key>
+    <value>Библиотека разработчика</value>
+  </synonym>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConfigurationExtension">
+    <defaultRunMode>Checked</defaultRunMode>
+    <usePurposes>Checked</usePurposes>
+    <homePageWorkArea>Extended</homePageWorkArea>
+  </extension>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="d67ff97b-fc6e-46b6-9ea8-b26fd2a1db19"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="fe913c67-df3f-4c8f-8046-a2e7a365f248"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="d2905467-bae1-4e5a-87a7-b01116d21ca9"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="368ce210-be89-4b5f-b213-b147c542d4ce"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="6ddca671-f3f5-4c08-8256-93bc437fcb00"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="586bde40-85fa-461e-a32c-c2bf114b7b3c"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="875a1b2b-4547-4465-8967-8e0aaeddae35"/>
+  <keepMappingToExtendedConfigurationObjectsByIDs>true</keepMappingToExtendedConfigurationObjectsByIDs>
+  <namePrefix>БР_</namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.20</configurationExtensionCompatibilityMode>
+  <configurationExtensionPurpose>Customization</configurationExtensionPurpose>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <vendor>Вячеслав Селиванов</vendor>
+  <version>0.0.0.5</version>
+  <languages uuid="59070850-5447-4973-a4be-f465c0417908">
+    <name>Русский</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:LanguageExtension">
+      <languageCode>Checked</languageCode>
+    </extension>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.Администрирование</subsystems>
+  <commonPictures>CommonPicture.ПиктограммыЭлементов</commonPictures>
+  <roles>Role.БР_Библиотека_КодаЧтение</roles>
+  <roles>Role.БР_Библиотека_КодаРедактирование</roles>
+  <roles>Role.ПолныеПрава</roles>
+  <commonModules>CommonModule.ПользователиСлужебныйКлиент</commonModules>
+  <definedTypes>DefinedType.ВладелецФайлов</definedTypes>
+  <definedTypes>DefinedType.ВладелецПрисоединенныхФайлов</definedTypes>
+  <commonCommands>CommonCommand.Каталог</commonCommands>
+  <commandGroups>CommandGroup.БР_БиблиотекаКода</commandGroups>
+  <catalogs>Catalog.БР_СписокДокументов</catalogs>
+  <catalogs>Catalog.Файлы</catalogs>
+  <catalogs>Catalog.Пользователи</catalogs>
+  <catalogs>Catalog.ПапкиФайлов</catalogs>
+  <catalogs>Catalog.ВерсииФайлов</catalogs>
+  <catalogs>Catalog.ГруппыПользователей</catalogs>
+  <catalogs>Catalog.БР_ГруппыДоступа</catalogs>
+  <dataProcessors>DataProcessor.РедакторКодаBslПример</dataProcessors>
+  <dataProcessors>DataProcessor.УдалениеПомеченныхОбъектов</dataProcessors>
+</mdclass:Configuration>

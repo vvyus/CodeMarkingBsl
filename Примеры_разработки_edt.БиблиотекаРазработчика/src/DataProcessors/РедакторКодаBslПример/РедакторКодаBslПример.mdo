@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a4943938-146b-40be-9a21-d344f221a5a0">
+  <producedTypes>
+    <objectType typeId="008b88a2-81e4-4b79-bd8c-3f5619a0f01c" valueTypeId="7ebef10f-fdda-4bb5-9814-c2b2e065f053"/>
+    <managerType typeId="b7cf4d6b-dd3f-407a-bfd4-60205a7fc6bd" valueTypeId="42b05b64-0225-47a6-b82a-a96159ca9af2"/>
+  </producedTypes>
+  <name>РедакторКодаBslПример</name>
+  <synonym>
+    <key>ru</key>
+    <value>Редактор кода bsl пример</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.РедакторКодаBslПример.Form.Форма</defaultForm>
+  <forms uuid="b53a4d73-4483-4f60-adbb-bec6ae3bb631">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>
