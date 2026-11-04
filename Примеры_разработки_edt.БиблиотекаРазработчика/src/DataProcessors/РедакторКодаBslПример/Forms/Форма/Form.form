@@ -1088,6 +1088,10 @@
       <value>Сохранить изменения</value>
     </title>
     <id>7</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Сохранить изменения</value>
+    </toolTip>
     <use>
       <common>true</common>
     </use>
