@@ -919,6 +919,31 @@
       <representationInContextMenu>Auto</representationInContextMenu>
     </items>
     <items xsi:type="form:Button">
+      <name>ФормаЗагрузитьСДиска</name>
+      <id>113</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>ФормаЗагрузитьСДискаРасширеннаяПодсказка</name>
+        <id>114</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <commandName>Form.Command.ЗагрузитьСДиска</commandName>
+      <representation>Auto</representation>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <placementArea>UserCmds</placementArea>
+      <representationInContextMenu>Auto</representationInContextMenu>
+    </items>
+    <items xsi:type="form:Button">
       <name>ФормаУдалитьДокументыПомеченныеНаУдаление</name>
       <id>109</id>
       <visible>true</visible>
@@ -1081,6 +1106,23 @@
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>ВыгрузитьНаДиск</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ЗагрузитьСДиска</name>
+    <title>
+      <key>ru</key>
+      <value>Загрузить с диска</value>
+    </title>
+    <id>6</id>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ЗагрузитьИзКаталога</name>
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>
