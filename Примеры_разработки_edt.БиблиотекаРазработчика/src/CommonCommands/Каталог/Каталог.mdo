@@ -3,7 +3,7 @@
   <name>Каталог</name>
   <synonym>
     <key>ru</key>
-    <value>Каталог</value>
+    <value>Документирование</value>
   </synonym>
   <group>CommandGroup.БР_БиблиотекаКода</group>
   <representation>Auto</representation>
