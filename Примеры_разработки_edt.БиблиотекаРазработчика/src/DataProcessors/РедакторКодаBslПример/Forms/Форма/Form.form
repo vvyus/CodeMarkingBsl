@@ -1111,13 +1111,6 @@
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <parameters>
-    <name>ВыбранныйЭлементСправочника</name>
-    <valueType>
-      <types>CatalogRef.БР_СписокДокументов</types>
-    </valueType>
-    <keyParameter>true</keyParameter>
-  </parameters>
-  <parameters>
     <name>Наименование</name>
     <valueType>
       <types>String</types>
