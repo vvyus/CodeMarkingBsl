@@ -87,6 +87,10 @@
         <headerHorizontalAlign>Left</headerHorizontalAlign>
         <showInFooter>true</showInFooter>
         <extInfo xsi:type="form:InputFieldExtInfo">
+          <handlers>
+            <event>EditTextChange</event>
+            <name>НаименованиеИзменениеТекстаРедактирования</name>
+          </handlers>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <wrap>true</wrap>
@@ -1106,13 +1110,6 @@
     <representation>Picture</representation>
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
-  <parameters>
-    <name>ВыбранныйЭлементСправочника</name>
-    <valueType>
-      <types>CatalogRef.БР_СписокДокументов</types>
-    </valueType>
-    <keyParameter>true</keyParameter>
-  </parameters>
   <parameters>
     <name>Наименование</name>
     <valueType>
