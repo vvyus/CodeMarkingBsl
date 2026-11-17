@@ -103,6 +103,10 @@
           <event>BeforeAddRow</event>
           <name>СписокПередНачаломДобавления</name>
         </handlers>
+        <handlers>
+          <event>OnActivateRow</event>
+          <name>СписокПриАктивизацииСтроки</name>
+        </handlers>
         <searchStringAddition>
           <name>СписокСтрокаПоиска</name>
           <id>7</id>
